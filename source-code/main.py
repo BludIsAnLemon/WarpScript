@@ -94,7 +94,7 @@ for line in program_lines:
         number = int(parts[1])
         program.append(number)
 # -----------------------------------------------------------------
-py_filepath = f"compiled-scripts/{file_path[:(len(file_path) - 3)]}.py"
+py_filepath = f"{file_path[:(len(file_path) - 3)]}.py"
 out = open(py_filepath, "w")
 # -----------------------------------------------------------------
 ip = 0
